@@ -2,6 +2,29 @@
 <html lang="en">
 
 <head>
+        <style>
+      .video-container { 
+          margin: 0;
+          padding-bottom: 50%; 
+          max-width: 100%; 
+          height: 0;  
+          position: relative;
+          overflow: hidden;
+      } 
+      .video-container iframe, 
+      .video-container object,
+      .video-container embed {
+          margin: auto;
+          padding: 0;  
+          width: 100%; 
+          height: 100%;
+          position:absolute;
+          left:0;
+          right:0;
+          
+      }
+      </style>
+        
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -86,7 +109,8 @@
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <h2 class="text-center">저는 어떤 사람일까요?</h2>
+            <h2 class="text-center">저는 어떤 사람일까요?</h2><br>
+            <h3 class="text-center" style="font-family:jejugothic">각각의 사진을 클릭하시면 사진에 해당하는 정보가 나옵니다!</h3>
             <hr class="star-primary">
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
@@ -165,9 +189,12 @@
 
     <!-- Quiz Section -->
     <section id="contact">
+
       <h2 class="text-center">Q U I Z</h2>
        <hr class="star-primary">
-       <div class="container" style="padding-left:220px;">
+    
+       
+       <div class="video-container">
         
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmbD1cSfyvfX52fcxPhVkvfoZFMW8BGkhcHB-K0PAwkcbObQ/viewform?embedded=true"
             width="700" height="480" frameborder="0" marginheight="0" marginwidth="0" margin="ait">로드 중...</iframe>
@@ -241,7 +268,7 @@
                                 <h2>안녕하세요!</h2>
                                 <hr class="star-primary">
                                 <img src="img/cgac.png" class="img-fluid img-centered" >
-                                <p>일단 제 소개부터 할게요!</p>
+                                <p>일단 제 소개부터 할게요!<br></p>
                                 <hr>
                                 <ul class="list-inline item-details" style="font-family:jejugothic; border:5px solid #74c493">
                                   <li><strong>이 름 : </strong>황 수 현</li>
@@ -250,6 +277,7 @@
                                   <li><strong>Phone Number : </strong>010-2554-5794</li>
                                   <li><strong>연애상태 :</strong>SOLO</li>
                                   <li><strong>주 량 : </strong> 소주 반병 ~ 한병</li>
+                                  <li><strong>동아리 : </strong>CGAC(소프트웨어학과 소속 동아리, Contributing Group As Code)</li>
                                 </ul>
                                 <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                             </div>
@@ -414,33 +442,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 offset-lg-2">
-                            <div class="modal-body">
-                                <h2>Project Title</h2>
-                                <hr class="star-primary">
-                                <img src="img/portfolio/submarine.png" class="img-fluid img-centered" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                    </li>
-                                </ul>
-                                <button type="button" class="btn btn-success" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
     </div>

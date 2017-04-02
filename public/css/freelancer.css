@@ -3,6 +3,10 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ 
+ 
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden; }
@@ -18,7 +22,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #f46d43;
   outline: none; }
 
 h1,
@@ -31,38 +35,9 @@ h6 {
   text-transform: uppercase;
   font-weight: 700; }
 
-hr.star-light,
-hr.star-primary {
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px; }
 
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em; }
 
-hr.star-light {
-  border-color: white; }
 
-hr.star-light:after {
-  background-color: #18BC9C;
-  color: white; }
-
-hr.star-primary {
-  border-color: #2C3E50; }
-
-hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50; }
 
 .img-centered {
   margin: 0 auto; }
@@ -113,16 +88,16 @@ header {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: white; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C;
+        color: #f46d43;
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:focus, #mainNav .navbar-nav li.nav-item a.nav-link:active {
         color: white; }
     #mainNav .navbar-nav li.nav-item.active a {
       color: white;
-      background: #18BC9C; }
+      background: #f46d43; }
       #mainNav .navbar-nav li.nav-item.active a:hover, #mainNav .navbar-nav li.nav-item.active a:focus, #mainNav .navbar-nav li.nav-item.active a:active {
         color: white;
-        background: #18BC9C; }
+        background: #f46d43; }
   #mainNav .navbar-toggler {
     color: white;
     text-transform: uppercase;
@@ -130,9 +105,9 @@ header {
     border-color: white;
     padding: 11px; }
     #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus {
-      background-color: #18BC9C;
+      background-color: #f46d43;
       color: white;
-      border-color: #18BC9C; }
+      border-color: #f46d43; }
 
 @media (min-width: 992px) {
   #mainNav {
